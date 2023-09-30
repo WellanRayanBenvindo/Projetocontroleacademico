@@ -18,18 +18,28 @@
 
     <main>
         <h1>Cadastro de Alunos</h1>
-        <form action="" method="get">
-            <label for="matricula">Matricula:</label>
-            <input type="text" name="matricula" id="matricula"> <br>
-            <label for="nome">Nome:</label>
-            <input type="text" name="nome" id="nome"> <br>
-            <label for="datan">Data de nascimento:</label>
-            <input type="text" name="datan" id="datan"> <br>
-            Sexo: <br>
-            <input type="radio" name="Sexo" id="masculino" value="Masculino">Masculino <br>
-            <input type="radio" name="Sexo" id="feminino" value="feminino">Feminino <br>
-            <input type="submit" value="Enviar">
-        </form>
+        <section>
+            <form action="" method="get">
+                <di id="matricula">
+                    <label for="matricula">Matricula:</label>
+                    <input type="text" name="matricula" id="matricula">
+                </di> <br>
+                <div id="nome">
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome">
+                </div> <br>
+                <div id="data">
+                    <label for="datan">Data de nascimento:</label>
+                    <input type="text" name="datan" id="datan">
+                </div> <br>
+                <div id="sexo">
+                    <label for="sexo">Sexo:</label> <br>
+                    <input type="radio" name="Sexo" id="masculino" value="Masculino">Masculino
+                    <input type="radio" name="Sexo" id="feminino" value="feminino">Feminino
+                </div> <br>
+                <div id="enviar"><input type="submit" value="Enviar"></div>
+            </form>
+        </section>
     </main>
 
 </body>
